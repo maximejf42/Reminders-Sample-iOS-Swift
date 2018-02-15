@@ -1,0 +1,15 @@
+PODS:
+  - EOCore (2.0.0.74)
+  - IBMTealeaf (10.2.0.145):
+    - EOCore
+
+DEPENDENCIES:
+  - IBMTealeaf
+
+SPEC CHECKSUMS:
+  EOCore: d8acdaefd9d0ad5ee704369fcd0de987ad1c76c0
+  IBMTealeaf: 8f08f0d39c747b90412a0b60c23e6769c8a62d92
+
+PODFILE CHECKSUM: c2b424a6b230b82a38394bdc7d0e7ba700a30db0
+
+COCOAPODS: 1.4.0

@@ -1,0 +1,448 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9944C3040CB585D3D2A87AA4F775FC55 /* Pods-RemindersSwiftApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E09BC16DA825E539942728883DBB0F61 /* Pods-RemindersSwiftApp-dummy.m */; };
+		D6AF9C3F98F1467753A95BE29711A0D5 /* Pods-RemindersSwiftApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D6102D1D146D99B8712DF3F9E7E0CBB /* Pods-RemindersSwiftApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F5F13BDFA1A75E472D72E6553B7E245D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0AB652CD9EB2791D9C59D331FC57376D /* EOCoreSettings.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = EOCoreSettings.bundle; path = SDKs/iOS/Debug/EOCore.framework/EOCoreSettings.bundle; sourceTree = "<group>"; };
+		36BD3490B33ADB32576A7577C5DF2A18 /* Pods-RemindersSwiftApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RemindersSwiftApp.modulemap"; sourceTree = "<group>"; };
+		4D9C3FD327EA07D0AB22F2D8D1E441B6 /* Pods-RemindersSwiftApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RemindersSwiftApp-frameworks.sh"; sourceTree = "<group>"; };
+		4FA7FA7F78DBDBFD10E0F55546D5D1E6 /* Pods-RemindersSwiftApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RemindersSwiftApp-acknowledgements.markdown"; sourceTree = "<group>"; };
+		629A84E14DA227694BEB1A4B0A37266C /* TLFResources.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = TLFResources.bundle; path = SDKs/iOS/Debug/Tealeaf.framework/TLFResources.bundle; sourceTree = "<group>"; };
+		62AC8E88ED02BA7AD48D40C841D8AB6F /* Pods-RemindersSwiftApp-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RemindersSwiftApp-resources.sh"; sourceTree = "<group>"; };
+		64B67395F25422445AFE013961B2F2F2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7D6102D1D146D99B8712DF3F9E7E0CBB /* Pods-RemindersSwiftApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RemindersSwiftApp-umbrella.h"; sourceTree = "<group>"; };
+		927B5E4D77D086E9BACB26A052885FB5 /* Pods_RemindersSwiftApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RemindersSwiftApp.framework; path = "Pods-RemindersSwiftApp.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AB2B2902A91A8196FFA4D48D462A8B01 /* EOCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EOCore.framework; path = SDKs/iOS/Debug/EOCore.framework; sourceTree = "<group>"; };
+		AD17B3265E9100F86A6AE03AAD38398E /* Pods-RemindersSwiftApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RemindersSwiftApp.debug.xcconfig"; sourceTree = "<group>"; };
+		AFAA9ADB35D9DAEE619ED35806FFFC4D /* Pods-RemindersSwiftApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RemindersSwiftApp-acknowledgements.plist"; sourceTree = "<group>"; };
+		B9D51302B8F3711B2527D76E9576A7C7 /* Tealeaf.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Tealeaf.framework; path = SDKs/iOS/Debug/Tealeaf.framework; sourceTree = "<group>"; };
+		C4096712990EBAF548696FD28A140694 /* Pods-RemindersSwiftApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RemindersSwiftApp.release.xcconfig"; sourceTree = "<group>"; };
+		E09BC16DA825E539942728883DBB0F61 /* Pods-RemindersSwiftApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RemindersSwiftApp-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		59D54DAE9B18A38F844BCE98D8B2AC22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5F13BDFA1A75E472D72E6553B7E245D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04E6EC7B7E7B600EA51622F1870401E5 /* IBMTealeaf */ = {
+			isa = PBXGroup;
+			children = (
+				6C9E92D31738000292A10E463070DD0E /* Frameworks */,
+				E2770A119D9A02B73D0EB2C777DF53B2 /* Resources */,
+			);
+			name = IBMTealeaf;
+			path = IBMTealeaf;
+			sourceTree = "<group>";
+		};
+		0523B1CB6913A13DC1F07BEA49C8B0A4 /* EOCore */ = {
+			isa = PBXGroup;
+			children = (
+				53A7D9A6B8FD7E6E2E2EE88409C3D460 /* Frameworks */,
+				E1581211A010CB2B93F7BDA8B6FBA470 /* Resources */,
+			);
+			name = EOCore;
+			path = EOCore;
+			sourceTree = "<group>";
+		};
+		2F8B4DBF4D40CACA5F936B0308717427 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0523B1CB6913A13DC1F07BEA49C8B0A4 /* EOCore */,
+				04E6EC7B7E7B600EA51622F1870401E5 /* IBMTealeaf */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		53A7D9A6B8FD7E6E2E2EE88409C3D460 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AB2B2902A91A8196FFA4D48D462A8B01 /* EOCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		60485B1E16E8764AECCE174FE5236462 /* Pods-RemindersSwiftApp */ = {
+			isa = PBXGroup;
+			children = (
+				64B67395F25422445AFE013961B2F2F2 /* Info.plist */,
+				36BD3490B33ADB32576A7577C5DF2A18 /* Pods-RemindersSwiftApp.modulemap */,
+				4FA7FA7F78DBDBFD10E0F55546D5D1E6 /* Pods-RemindersSwiftApp-acknowledgements.markdown */,
+				AFAA9ADB35D9DAEE619ED35806FFFC4D /* Pods-RemindersSwiftApp-acknowledgements.plist */,
+				E09BC16DA825E539942728883DBB0F61 /* Pods-RemindersSwiftApp-dummy.m */,
+				4D9C3FD327EA07D0AB22F2D8D1E441B6 /* Pods-RemindersSwiftApp-frameworks.sh */,
+				62AC8E88ED02BA7AD48D40C841D8AB6F /* Pods-RemindersSwiftApp-resources.sh */,
+				7D6102D1D146D99B8712DF3F9E7E0CBB /* Pods-RemindersSwiftApp-umbrella.h */,
+				AD17B3265E9100F86A6AE03AAD38398E /* Pods-RemindersSwiftApp.debug.xcconfig */,
+				C4096712990EBAF548696FD28A140694 /* Pods-RemindersSwiftApp.release.xcconfig */,
+			);
+			name = "Pods-RemindersSwiftApp";
+			path = "Target Support Files/Pods-RemindersSwiftApp";
+			sourceTree = "<group>";
+		};
+		68CDD51C862A60907804334625499B8D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				927B5E4D77D086E9BACB26A052885FB5 /* Pods_RemindersSwiftApp.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6C9E92D31738000292A10E463070DD0E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B9D51302B8F3711B2527D76E9576A7C7 /* Tealeaf.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				2F8B4DBF4D40CACA5F936B0308717427 /* Pods */,
+				68CDD51C862A60907804334625499B8D /* Products */,
+				D0F9DBF13BF8021C9E26AA4807FFBC78 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D0F9DBF13BF8021C9E26AA4807FFBC78 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				60485B1E16E8764AECCE174FE5236462 /* Pods-RemindersSwiftApp */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E1581211A010CB2B93F7BDA8B6FBA470 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0AB652CD9EB2791D9C59D331FC57376D /* EOCoreSettings.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		E2770A119D9A02B73D0EB2C777DF53B2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				629A84E14DA227694BEB1A4B0A37266C /* TLFResources.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5941C109BC975BDCA435E59301BA655F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6AF9C3F98F1467753A95BE29711A0D5 /* Pods-RemindersSwiftApp-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6ACB506E01D514D00B15EC23DD248C1C /* Pods-RemindersSwiftApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCBD8F8588F34FA60E7FB2231814C50E /* Build configuration list for PBXNativeTarget "Pods-RemindersSwiftApp" */;
+			buildPhases = (
+				742F4D8558A1D689F9B5D8998BB8EDF2 /* Sources */,
+				59D54DAE9B18A38F844BCE98D8B2AC22 /* Frameworks */,
+				5941C109BC975BDCA435E59301BA655F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-RemindersSwiftApp";
+			productName = "Pods-RemindersSwiftApp";
+			productReference = 927B5E4D77D086E9BACB26A052885FB5 /* Pods_RemindersSwiftApp.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 68CDD51C862A60907804334625499B8D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6ACB506E01D514D00B15EC23DD248C1C /* Pods-RemindersSwiftApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		742F4D8558A1D689F9B5D8998BB8EDF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9944C3040CB585D3D2A87AA4F775FC55 /* Pods-RemindersSwiftApp-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0D7A23EDD910AFAB914CB801C8DD3D83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD17B3265E9100F86A6AE03AAD38398E /* Pods-RemindersSwiftApp.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RemindersSwiftApp/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RemindersSwiftApp/Pods-RemindersSwiftApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_RemindersSwiftApp;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		26F954BA177A9A46FFFD4E23ED11D67A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		76261E5A0E5C9ED9299B2461F3E24226 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4096712990EBAF548696FD28A140694 /* Pods-RemindersSwiftApp.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RemindersSwiftApp/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RemindersSwiftApp/Pods-RemindersSwiftApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_RemindersSwiftApp;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E2BF6D6731C31DE69900B7B24E6F0445 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2BF6D6731C31DE69900B7B24E6F0445 /* Debug */,
+				26F954BA177A9A46FFFD4E23ED11D67A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCBD8F8588F34FA60E7FB2231814C50E /* Build configuration list for PBXNativeTarget "Pods-RemindersSwiftApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D7A23EDD910AFAB914CB801C8DD3D83 /* Debug */,
+				76261E5A0E5C9ED9299B2461F3E24226 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
