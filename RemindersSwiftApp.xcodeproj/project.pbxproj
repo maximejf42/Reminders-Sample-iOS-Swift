@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		07451F7288DB8D480CF96219 /* Pods_RemindersSwiftApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65EBF71806A9CF707118A281 /* Pods_RemindersSwiftApp.framework */; };
+		18881B042A47E7C9E85A8F6C /* Pods_RemindersSwiftApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC450255039FDDE643FF281E /* Pods_RemindersSwiftApp.framework */; };
 		F60AF34B1F2FBB1D00A6FC57 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F60AF34A1F2FBB1D00A6FC57 /* CFNetwork.framework */; };
 		F60AF34D1F2FBB2800A6FC57 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F60AF34C1F2FBB2800A6FC57 /* SystemConfiguration.framework */; };
 		F60AF34F1F2FBB3400A6FC57 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F60AF34E1F2FBB3400A6FC57 /* CoreLocation.framework */; };
@@ -75,8 +75,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00188659DD0F73EC368EDACC /* Pods-RemindersSwiftApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RemindersSwiftApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RemindersSwiftApp/Pods-RemindersSwiftApp.debug.xcconfig"; sourceTree = "<group>"; };
-		65EBF71806A9CF707118A281 /* Pods_RemindersSwiftApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RemindersSwiftApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		23A791CE66B0A952FEBEC317 /* Pods-RemindersSwiftApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RemindersSwiftApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-RemindersSwiftApp/Pods-RemindersSwiftApp.release.xcconfig"; sourceTree = "<group>"; };
+		50BA3CC7DE4B67365F791A52 /* Pods-RemindersSwiftApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RemindersSwiftApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RemindersSwiftApp/Pods-RemindersSwiftApp.debug.xcconfig"; sourceTree = "<group>"; };
+		AC450255039FDDE643FF281E /* Pods_RemindersSwiftApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RemindersSwiftApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F60AF34A1F2FBB1D00A6FC57 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		F60AF34C1F2FBB2800A6FC57 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		F60AF34E1F2FBB3400A6FC57 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
@@ -100,7 +101,6 @@
 		F6CA7C1A1F30F447006EBEA9 /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		F6F8D2561F69E506004CFA11 /* EOCore.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = EOCore.xcodeproj; path = ../../iOSSrc/EOCore/EOCore.xcodeproj; sourceTree = "<group>"; };
 		F6F8D2631F69E50A004CFA11 /* Tealeaf.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Tealeaf.xcodeproj; path = ../../iOSSrc/Tealeaf/Tealeaf.xcodeproj; sourceTree = "<group>"; };
-		F73B8029BD9D3D3C829C01AC /* Pods-RemindersSwiftApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RemindersSwiftApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-RemindersSwiftApp/Pods-RemindersSwiftApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,18 +114,18 @@
 				F60AF34F1F2FBB3400A6FC57 /* CoreLocation.framework in Frameworks */,
 				F60AF34D1F2FBB2800A6FC57 /* SystemConfiguration.framework in Frameworks */,
 				F60AF34B1F2FBB1D00A6FC57 /* CFNetwork.framework in Frameworks */,
-				07451F7288DB8D480CF96219 /* Pods_RemindersSwiftApp.framework in Frameworks */,
+				18881B042A47E7C9E85A8F6C /* Pods_RemindersSwiftApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		9BA68328B2B080D5B267A297 /* Pods */ = {
+		42DD42A629924905886F30CC /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				00188659DD0F73EC368EDACC /* Pods-RemindersSwiftApp.debug.xcconfig */,
-				F73B8029BD9D3D3C829C01AC /* Pods-RemindersSwiftApp.release.xcconfig */,
+				50BA3CC7DE4B67365F791A52 /* Pods-RemindersSwiftApp.debug.xcconfig */,
+				23A791CE66B0A952FEBEC317 /* Pods-RemindersSwiftApp.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -141,7 +141,7 @@
 				F60AF34E1F2FBB3400A6FC57 /* CoreLocation.framework */,
 				F60AF34C1F2FBB2800A6FC57 /* SystemConfiguration.framework */,
 				F60AF34A1F2FBB1D00A6FC57 /* CFNetwork.framework */,
-				65EBF71806A9CF707118A281 /* Pods_RemindersSwiftApp.framework */,
+				AC450255039FDDE643FF281E /* Pods_RemindersSwiftApp.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -152,7 +152,7 @@
 				F6166FA01F27C53B003C409E /* RemindersSwiftApp */,
 				F6166F9F1F27C53B003C409E /* Products */,
 				F60AF3491F2FBB1D00A6FC57 /* Frameworks */,
-				9BA68328B2B080D5B267A297 /* Pods */,
+				42DD42A629924905886F30CC /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -212,12 +212,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F6166FB21F27C53B003C409E /* Build configuration list for PBXNativeTarget "RemindersSwiftApp" */;
 			buildPhases = (
-				7A9E41EA54DA09372A283E7C /* [CP] Check Pods Manifest.lock */,
+				0BF1B0CE5A94EE7BDBC73220 /* [CP] Check Pods Manifest.lock */,
 				F6166F9A1F27C53B003C409E /* Sources */,
 				F6166F9B1F27C53B003C409E /* Frameworks */,
 				F6166F9C1F27C53B003C409E /* Resources */,
-				B24B481E67784320C3234181 /* [CP] Embed Pods Frameworks */,
-				C5163689E1F1A216366E37E3 /* [CP] Copy Pods Resources */,
+				AF05B778D20DA29667819693 /* [CP] Embed Pods Frameworks */,
+				423433D8C169760A59066C7B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -335,7 +335,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		7A9E41EA54DA09372A283E7C /* [CP] Check Pods Manifest.lock */ = {
+		0BF1B0CE5A94EE7BDBC73220 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -353,35 +353,15 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		B24B481E67784320C3234181 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-RemindersSwiftApp/Pods-RemindersSwiftApp-frameworks.sh",
-				"${PODS_ROOT}/EOCore/SDKs/iOS/Debug/EOCore.framework",
-				"${PODS_ROOT}/IBMTealeaf/SDKs/iOS/Debug/Tealeaf.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/EOCore.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Tealeaf.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RemindersSwiftApp/Pods-RemindersSwiftApp-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		C5163689E1F1A216366E37E3 /* [CP] Copy Pods Resources */ = {
+		423433D8C169760A59066C7B /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-RemindersSwiftApp/Pods-RemindersSwiftApp-resources.sh",
-				"${PODS_ROOT}/EOCore/SDKs/iOS/Debug/EOCore.framework/EOCoreSettings.bundle",
-				"${PODS_ROOT}/IBMTealeaf/SDKs/iOS/Debug/Tealeaf.framework/TLFResources.bundle",
+				"${PODS_ROOT}/EOCoreDebug/SDKs/iOS/Debug/EOCore.framework/EOCoreSettings.bundle",
+				"${PODS_ROOT}/IBMTealeafDebug/SDKs/iOS/Debug/Tealeaf.framework/TLFResources.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
@@ -391,6 +371,26 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RemindersSwiftApp/Pods-RemindersSwiftApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AF05B778D20DA29667819693 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-RemindersSwiftApp/Pods-RemindersSwiftApp-frameworks.sh",
+				"${PODS_ROOT}/EOCoreDebug/SDKs/iOS/Debug/EOCore.framework",
+				"${PODS_ROOT}/IBMTealeafDebug/SDKs/iOS/Debug/Tealeaf.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/EOCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Tealeaf.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RemindersSwiftApp/Pods-RemindersSwiftApp-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -539,7 +539,7 @@
 		};
 		F6166FB31F27C53B003C409E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 00188659DD0F73EC368EDACC /* Pods-RemindersSwiftApp.debug.xcconfig */;
+			baseConfigurationReference = 50BA3CC7DE4B67365F791A52 /* Pods-RemindersSwiftApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -563,7 +563,7 @@
 		};
 		F6166FB41F27C53B003C409E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F73B8029BD9D3D3C829C01AC /* Pods-RemindersSwiftApp.release.xcconfig */;
+			baseConfigurationReference = 23A791CE66B0A952FEBEC317 /* Pods-RemindersSwiftApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				FRAMEWORK_SEARCH_PATHS = (
