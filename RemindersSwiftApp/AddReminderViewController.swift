@@ -57,7 +57,7 @@ class AddReminderViewController: UIViewController {
     }
     
     @objc func addReminder() {
-        if self.titleTextField.text?.characters.count == 0 ||  self.notesTextView.text?.count == 0 {
+        if self.titleTextField.text?.count == 0 ||  self.notesTextView.text?.count == 0 {
             let alertController = UIAlertController(title: "Missing required fields", message: "Please enter text for reminder title and notes", preferredStyle: UIAlertControllerStyle.alert)
             let okAction = UIAlertAction(title: "OK", style: UIAlertActionStyle.default) { (result : UIAlertAction) -> Void in
                 print("OK")
