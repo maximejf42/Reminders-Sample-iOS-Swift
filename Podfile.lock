@@ -1,15 +1,20 @@
 PODS:
-  - EOCore (2.0.0.74)
-  - IBMTealeaf (10.2.0.145):
+  - EOCore (2.0.1.0)
+  - IBMTealeaf (10.2.0.210):
     - EOCore
 
 DEPENDENCIES:
   - IBMTealeaf
 
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - EOCore
+    - IBMTealeaf
+
 SPEC CHECKSUMS:
-  EOCore: d8acdaefd9d0ad5ee704369fcd0de987ad1c76c0
-  IBMTealeaf: 8f08f0d39c747b90412a0b60c23e6769c8a62d92
+  EOCore: 8e5b7723b714133dd92c73a139cb8bbcb4008c41
+  IBMTealeaf: 8a357a5e06b39bdf3846eb20c2b7d176bc44c612
 
-PODFILE CHECKSUM: c2b424a6b230b82a38394bdc7d0e7ba700a30db0
+PODFILE CHECKSUM: 26867b12929669982de3c1e9a2be4336f9b00ba8
 
-COCOAPODS: 1.4.0
+COCOAPODS: 1.5.0
